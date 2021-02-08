@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 
-from app.schemas.measurementsSchema import MeasurementsBase
+from app.schemas.measurementsSchema import MeasurementsBase # Use this for localhost
+# from schemas.measurementsSchema import MeasurementsBase # Use this for deployment
 
 router = APIRouter()
 
